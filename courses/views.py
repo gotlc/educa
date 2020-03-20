@@ -8,7 +8,7 @@ from django.shortcuts import redirect, get_object_or_404
 from django.views.generic.base import TemplateResponseMixin, View
 from django.forms.models import modelform_factory
 from django.apps import apps
-from braces.views import CsrfExemptMixin, JsonRequestResponseMixin
+# from braces.views import CsrfExemptMixin, JsonRequestResponseMixin
 from .models import Course,Module,Content
 from .forms import ModuleFormSet
 
